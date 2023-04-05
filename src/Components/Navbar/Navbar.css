@@ -1,0 +1,73 @@
+
+:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.n-wrapper {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% ); */
+   
+    position: fixed;
+    padding-top: .3cm;
+    width: 100%;
+    /* margin-left: 4rem; */
+    margin-right: 2rem;
+  }
+  .n-left {
+    flex: 1;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    gap: 2rem;
+    
+  }
+  
+  .n-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    align-items: center;
+    color: var(--blueCard);
+  }
+  .n-right {
+    
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    
+  }
+  
+  .n-list {
+    flex: 10;
+    color: var(--blueCard);
+  }
+  .n-list > ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+  }
+  
+  .n-list > ul :hover {
+    color: var(--orange);
+    cursor: pointer;
+  }
+  
+  .n-button {
+    flex: 2;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .n-list {
+      display: none;
+    }
+  }
