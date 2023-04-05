@@ -1,84 +1,40 @@
 import React from "react";
 import "./Home.css";
+import video from '../../Assets/video.mp4';
+import {ImLinkedin} from 'react-icons/im';
+import {BsGithub} from 'react-icons/bs';
+import {FaTwitterSquare} from 'react-icons/fa';
+
+const style1 = { fontSize: "1.7em" };
 
 const Home =()=>{
 
     return (
         <section className="home-section glass-effect">
-         <div >
-            Hi there
-            Lorem Ipsum is simply dummy t
-            ext of the printing and typesetting industry. Lorem Ipsum 
-            has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to mak
-            e a type specimen book. It has survived not only five centuries, but a
-            lso the leap into electronic typesetting, remaining essentially un
-            changed. It was popularised in the 1960s with the release of L
-            etraset sheets containing Lorem Ipsum passages, and more recentl
-            
-            Lorem Ipsum is simply dummy t
-            ext of the printing and typesetting industry. Lorem Ipsum 
-            has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to mak
-            e a type specimen book. It has survived not only five centuries, but a
-            lso the leap into electronic typesetting, remaining essentially un
-            changed. It was popularised in the 1960s with the release of L
-            etraset sheets containing Lorem Ipsum passages, and more recentl
-            y with desktop publishing software like Aldus PageMaker including 
-             will uncover many web sites still in their
-             Hi there
-            Lorem Ipsum is simply dummy t
-            ext of the printing and typesetting industry. Lorem Ipsum 
-            has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to mak
-            e a type specimen book. It has survived not only five centuries, but a
-            lso the leap into electronic typesetting, remaining essentially un
-            changed. It was popularised in the 1960s with the release of L
-            etraset sheets containing Lorem Ipsum passages, and more recentl
-            y with desktop publishing software like Aldus PageMaker including 
-             will uncover many web sites still in their
-             Hi there
-            Lorem Ipsum is simply dummy t
-            ext of the printing and typesetting industry. Lorem Ipsum 
-            has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to mak
-            e a type specimen book. It has survived not only five centuries, but a
-            lso the leap into electronic typesetting, remaining essentially un
-            changed. It was popularised in the 1960s with the release of L
-            etraset sheets containing Lorem Ipsum passages, and more recentl
-            y with desktop publishing software like Aldus PageMaker including 
-             will uncover many web sites still in their
-             Hi there
-            Lorem Ipsum is simply dummy t
-            ext of the printing and typesetting industry. Lorem Ipsum 
-           
-             Hi there
-            Lorem Ipsum is simply dummy t
-            ext of the printing and typesetting industry. Lorem Ipsum 
-            has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to mak
-            e a type specimen book. It has survived not only five centuries, but a
-            lso the leap into electronic typesetting, remaining essentially un
-            changed. It was popularised in the 1960s with the release of L
-            etraset sheets containing Lorem Ipsum passages, and more recentl
-            y with desktop publishing software like Aldus PageMaker including 
-             will uncover many web sites still in their
-             Hi there
-            Lorem Ipsum is simply dummy t
-            ext of the printing and typesetting industry. Lorem Ipsum 
-            has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to mak
-            e a type specimen book. It has survived not only five centuries, but a
-            lso the leap into electronic typesetting, remaining essentially un
-            changed. It was popularised in the 1960s with the release of L
-            etraset sheets containing Lorem Ipsum passages, and more recentl
-            y with desktop publishing software like Aldus PageMaker including 
-             will uncover many web sites still in their
-
-           
-        </div>
-        
-        </section> 
+          
+         <div className="aboutSection">
+            <div className="Video">
+                 <video src = {video} muted autoPlay loop type = "video/mp4"></video>
+            </div>
+            <div className="about-text">
+                <h1 className="about-name">
+                    Hello 👋...
+                </h1>
+                <h1 className="about-name">
+                    I am Nirbhay
+                </h1>
+                <h4 className="name-subtext">
+                   Code and Code...
+                   I am a big fan of nikitha mattupalli, she is just an idle person i ever met !
+                </h4>
+                <h1 >
+                   <a href="www.google.com" ><ImLinkedin style={style1} className="social-media-icons"/></a>
+                   <a href="www.google.com" ><BsGithub style={style1} className="social-media-icons" /></a> 
+                   <a href="www.google.com" ><FaTwitterSquare style={style1} className="social-media-icons"/></a> 
+                </h1>
+            </div>   
+        </div>    
+       </section> 
     )
 }
 
