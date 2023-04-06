@@ -24,5 +24,5 @@ export default App;
 
 //wesites - resources
 
-//https://nirbhayresume.onrender.com/
+//https://nirbhay.onrender.com
 //https://pixabay.com/videos/stars-long-exposure-starry-sky-6962/
