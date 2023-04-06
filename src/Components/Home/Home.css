@@ -19,11 +19,9 @@ div .home-section{
 }
 
 video{
-  position: relative;
-  height: 20rem;
+  position:relative;
+  height:55vh;
   width: 100%;
-  top: 0;
-  bottom: 0;
   object-fit:fill;
 }
 
@@ -67,7 +65,7 @@ a:hover{
 
 .Intro {
   display: flex;
-  height: 61vh;
+  height: fit-content;
 }
 
 /* left side styling */
@@ -114,36 +112,37 @@ a:hover{
 .i-right {
   flex: 1;
   position: relative;
-  margin-top: -4rem;
-  margin-left: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: fit-content;
+  margin-top: 17%;
 }
+  /* margin-top: -4rem;
+  margin-left: 5rem; */
+
 .i-right > * {
   position: absolute;
-  margin-top: -4rem;
-  z-index: 1;
 }
-.i-right > :nth-child(1) {
-  transform: scale(0.52);
-  left: -15%;
-  top: -9%;
+
+.img-personal1{
+  margin-top: -20%;
+  position: absolute;
+  width: 95%;
+
 }
-.i-right > :nth-child(2) {
-  top: -4.6rem;
-  transform: scale(0.5);
-  left: -3rem;
-}
-.i-right > :nth-child(3) {
-  transform: scale(1.4);
-  padding-top:2.37rem;
-  left: 10%;
+
+.img-personal2{
+  margin-top: -20%;
+  position: absolute;
+  width:85%;
   
 }
-.i-right > :nth-child(4) {
-  transform: scale(0.62);
-  top: -19%;
-  left: -24%;
-  border-radius: 50%;
-  padding: 0;
+.img-personal3{
+  position: absolute;
+  width: 100%;
+  margin-top: 4%;
 }
 
 

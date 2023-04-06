@@ -41,9 +41,9 @@ const Home =()=>{
             </div>
             {/* right image side */}
             <div className="i-right">
-                <img src={Vector1} alt="" />
-                <img src={Vector2} alt="" />
-                <img src={personalImg} alt="" />
+                <img className="img-personal1" src={Vector1} alt="" />
+                <img className="img-personal2" src={Vector2} alt="" />
+                <img className="img-personal3" src={personalImg} alt="" />
        
             </div>
             </div>
