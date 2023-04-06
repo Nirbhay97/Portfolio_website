@@ -108,60 +108,33 @@ a:hover{
   display: flex;
   gap: 0rem;
 }
-/* right side styling */
+
+
+  /* right side styling */
 .i-right {
   flex: 1;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  height: fit-content;
-  margin-top: 17%;
+  margin-left: 4rem;
 }
-  /* margin-top: -4rem;
-  margin-left: 5rem; */
-
 .i-right > * {
-  position: absolute;
+    margin-top: -4rem;
+    position: absolute;
+    z-index: 1;
 }
-
-.img-personal1{
-  margin-top: -20%;
-  position: absolute;
-  width: 95%;
-
+.i-right > :nth-child(1) {
+  transform: scale(0.72);
+  left: -15%;
+  top: -9%;
 }
-
-.img-personal2{
-  margin-top: -20%;
-  position: absolute;
-  width:85%;
-  
+.i-right > :nth-child(2) {
+  top: -4.6rem;
+  transform: scale(0.67);
+  left: -22%;
+ 
 }
-.img-personal3{
-  position: absolute;
-  width: 100%;
-  margin-top: 4%;
-}
-
-
-@media screen and (max-width: 480px) {
-  .Intro {
-    flex-direction: column;
-    gap: 7rem;
-    height: 64rem;
-  }
-
-  .i-right {
-    transform: scale(0.8);
-    left: -3rem;
-  }
-  .i-right .blur {
-    display: none;
-  }
-  .floating-div:nth-of-type(1){
-    /* display: none; */
-    top: -7rem !important;;
-  }
+.i-right > :nth-child(3) {
+    left: 10%;
+    padding-bottom: 7rem;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
 }
