@@ -21,8 +21,3 @@ function App() {
 
 export default App;
 
-
-//wesites - resources
-
-//https://nirbhay.onrender.com
-//https://pixabay.com/videos/stars-long-exposure-starry-sky-6962/
