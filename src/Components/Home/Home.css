@@ -67,7 +67,7 @@ a:hover{
 
 .Intro {
   display: flex;
-  height: 55vh;
+  height: 61vh;
 }
 
 /* left side styling */
@@ -123,13 +123,13 @@ a:hover{
   z-index: 1;
 }
 .i-right > :nth-child(1) {
-  transform: scale(0.69);
+  transform: scale(0.52);
   left: -15%;
   top: -9%;
 }
 .i-right > :nth-child(2) {
   top: -4.6rem;
-  transform: scale(0.67);
+  transform: scale(0.5);
   left: -3rem;
 }
 .i-right > :nth-child(3) {
