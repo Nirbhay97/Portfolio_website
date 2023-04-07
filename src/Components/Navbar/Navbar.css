@@ -71,4 +71,12 @@
     .n-list {
       display: none;
     }
+
+    .n-button{
+      display: none;
+    }
+   
+    .n-name{
+      margin-top:.7rem;
+    }
   }
