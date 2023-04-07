@@ -24,7 +24,7 @@ const Home =()=>{
             <div className="i-left">
                 <div className="i-name">
                
-                <span style={style1}>Hy! I Am</span>
+                <span>Hy! I Am</span>
                 <span>Nirbhay</span>
                 <span className="name-subtext">
                     Frontend Developer with high level of experience in web designing

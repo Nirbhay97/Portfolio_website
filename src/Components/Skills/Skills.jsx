@@ -43,7 +43,7 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         <span >My Awesome</span>
-        <span>services</span>
+        <span>Competencies</span>
         <spane>
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br />

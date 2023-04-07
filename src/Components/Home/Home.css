@@ -18,6 +18,17 @@ div .home-section{
     border: 2px solid rgb(95, 95, 95);
 }
 
+@media screen and (max-width: 480px){
+  
+  div .home-section{
+    z-index: 2;
+    margin-bottom: 1.4rem;
+    color: rgb(184, 184, 184);  
+    border: 1px solid rgb(95, 95, 95);
+}
+
+}
+
 video{
   position:relative;
   height:55vh;
@@ -25,10 +36,12 @@ video{
   object-fit:fill;
 }
 
+
 .about-name{
     font-size: 50px;
     font-weight: 500;
 }
+
 
 .about-text{
   padding-left: 0rem;
@@ -39,12 +52,23 @@ video{
   font-size: 50px;
 }
 
+@media screen and (max-width: 480px){
+  video{
+    position:relative;
+    height:24vh;
+    width: 100%;
+    object-fit:fill;
+    border-radius: 10px;
+  }
+  
+}
+
 .glass-effect {
     background-color: rgba(1, 0, 8, 0.5);
     backdrop-filter: blur(10px); /* adds the blur effect to the background */
     opacity: 1;
     border-radius: 10px; /* optional, adds rounded corners to the div */
-    padding: 20px; /* optional, adds some padding to the content */
+    padding: 10px; /* optional, adds some padding to the content */
   }
 
   .social-media-icons{
@@ -63,78 +87,159 @@ a:hover{
   }
 
 
-.Intro {
-  display: flex;
-  height: fit-content;
-}
+  .Intro {
+    display: flex;
+    height: fit-content;
+  }
+  
+  /* left side styling */
+  .i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
+  }
+  .i-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .i-name > :nth-child(1) {
+    color: var(--blueCard);
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .i-name > :nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .i-name > :nth-child(3) {
+    font-weight: 100;
+    font-size: 20px;
+    color: var(--blueCard);
+    margin-top: 10px;
+  }
+  .i-button {
+    width: 6rem;
+    height: 2rem;
+  }
+  .i-icons {
+    margin-top: -1rem;
+    display: flex;
+    gap: 0rem;
+  }
+  
+  
+    /* right side styling */
+  .i-right {
+    flex: 1;
+    position: relative;
+    margin-left: 4rem;
+  }
+  .i-right > * {
+      margin-top: -4rem;
+      position: absolute;
+      z-index: 1;
+  }
+  .i-right > :nth-child(1) {
+    transform: scale(0.72);
+    left: -15%;
+    top: -9%;
+  }
+  .i-right > :nth-child(2) {
+    top: -4.6rem;
+    transform: scale(0.67);
+    left: -22%;
+   
+  }
+  .i-right > :nth-child(3) {
+      left: 10%;
+      padding-bottom: 2rem;
+      -webkit-transform: scale(1.4);
+      transform: scale(1.4);
+  }
 
-/* left side styling */
-.i-left {
-  display: flex;
-  position: relative;
-  flex: 1;
-  flex-direction: column;
-  gap: 2rem;
-  margin-top: 4rem;
-  margin-left: 2rem;
-}
-.i-name {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-.i-name > :nth-child(1) {
-  color: var(--blueCard);
-  font-weight: bold;
-  font-size: 3rem;
-}
-.i-name > :nth-child(2) {
-  color: var(--orange);
-  font-weight: bold;
-  font-size: 3rem;
-}
-.i-name > :nth-child(3) {
-  font-weight: 100;
-  font-size: 20px;
-  color: var(--blueCard);
-  margin-top: 10px;
-}
-.i-button {
-  width: 6rem;
-  height: 2rem;
-}
-.i-icons {
-  margin-top: -1rem;
-  display: flex;
-  gap: 0rem;
-}
+@media screen and (max-width: 480px){
+  
+    .Intro {
+      display: flex;
+      height: fit-content;
+    }
+
+    /* left side styling */
+    .i-left {
+      display: flex;
+      position: relative;
+      flex: 1;
+      flex-direction: column;
+      margin-top: 1.4rem;
+      margin-left: .1rem;
+      margin-right: .1rem;
+    }
+    .i-name {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+    .i-name > :nth-child(1) {
+      color: var(--blueCard);
+      font-weight: bold;
+      font-size: 23px;
+    }
+    .i-name > :nth-child(2) {
+      color: var(--orange);
+      font-weight: bold;
+      font-size: 1.7rem;
+    }
+    .i-name > :nth-child(3) {
+      font-weight: 100;
+      font-size: 18px;
+      color: var(--blueCard);
+      margin-top: 10px;
+      width: fit-content;
+    }
+    .i-button {
+      width: 6rem;
+      height: 2rem;
+    }
+    .i-icons {
+      margin-top: -1rem;
+      display: flex;
+      gap: 0rem;
+    }
 
 
-  /* right side styling */
-.i-right {
-  flex: 1;
-  position: relative;
-  margin-left: 4rem;
-}
-.i-right > * {
-    margin-top: -4rem;
-    position: absolute;
-    z-index: 1;
-}
-.i-right > :nth-child(1) {
-  transform: scale(0.72);
-  left: -15%;
-  top: -9%;
-}
-.i-right > :nth-child(2) {
-  top: -4.6rem;
-  transform: scale(0.67);
-  left: -22%;
- 
-}
-.i-right > :nth-child(3) {
-    left: 10%;
-    padding-bottom: 7rem;
-    -webkit-transform: scale(1.4);
-    transform: scale(1.4);
-}
+      /* right side styling */
+    .i-right {
+      
+      position: hidden;
+      margin-left: 1rem;
+    }
+    .i-right > * {
+        margin-top: -4rem;
+        position: absolute;
+        z-index: 1;
+    }
+    .i-right > :nth-child(1) {
+      transform: scale(0.72);
+      left: -15%;
+      top: -9%;
+    }
+    .i-right > :nth-child(2) {
+      top: -4.6rem;
+      transform: scale(0.67);
+      left: -22%;
+    
+    }
+    .i-right > :nth-child(3) {
+        left: 10%;
+        padding-bottom: 4rem;
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+    }
+  }
+

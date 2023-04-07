@@ -112,21 +112,101 @@
 }
 
 
-  @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .services {
       margin-top: 0;
-      flex-direction: column;
-      gap: 5rem;
-      height: 66rem;
-      padding: 0;
+      flex-direction:column;
+      gap: 2rem;
+      height: 61rem;
+
     }
   
+    div .skills-section{
+      z-index: 2;
+      margin-bottom: 2rem;
+      color: rgb(255, 255, 255);  
+      border: 1px solid rgb(95, 95, 95);
+  }
     .cards {
       display: flex;
       flex-direction: column;
-      gap: 17rem;
+      gap: 2rem;
     }
-    .cards > * {
-      position: static;
+
+    /* left side */
+    .awesome {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      margin-top: 1rem;
+      /* gap: 20px; */
     }
+    
+    .awesome > :nth-child(1) {
+      color: var(--blueCard);
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .awesome > :nth-child(2) {
+      color: var(--orange);
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+    .awesome > :nth-child(3) {
+      color: var(--blueCard);
+      font-size: 20px;
+      margin-top: 1rem;
+    }
+    .s-button {
+      width: 8rem;
+      height: 2rem;
+      margin-top: 1rem;
+    }
+    /* right sided */
+  
+    div .skills-section{
+      z-index: 2;
+      margin-bottom: 2rem;
+      color: rgb(255, 255, 255);  
+      border: 2px solid rgb(95, 95, 95);
+  }
+  
+    /* Card styling */
+  .card {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    background-color: #740297;
+    border-radius: 10px;
+    border-color: #4caf50;
+    border-width: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+    width: 260px;
+    opacity: .7;
+  }
+  
+  .card img {
+    border-radius: 10px;
+    margin-bottom: .2rem;
+    max-width: 100%;
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.1rem;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* CardList styling */
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
   }

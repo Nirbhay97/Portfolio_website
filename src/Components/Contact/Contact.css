@@ -57,11 +57,37 @@ textarea{
     .contact-form{
         padding: 0;
         flex-direction: column;
-        gap: 5rem;
-        height: 40rem;
+        gap: 1rem;
+        height: 28rem;
     }
     .c-right .user{
         width: 16rem;
     }
 
+    
+    div .contact-section{
+        z-index: 2;
+        margin-bottom: 2rem;
+        color: rgb(184, 184, 184);  
+        border: 1px solid rgb(95, 95, 95);
+    }
+    
+    .btn-email-section{
+        margin-left: -1.6rem;
+    }
+    
+    .c-right{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        flex: 1;
+    }
+    
+    .c-right>form
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;   
+    }
 } 
