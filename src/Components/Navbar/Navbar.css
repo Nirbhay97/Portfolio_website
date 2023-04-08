@@ -55,7 +55,7 @@
   .n-list > ul {
     display: flex;
     gap: 2rem;
-    margin-right: 4rem;
+    margin-right: 3rem;
   }
   
   .n-list > ul :hover {
@@ -65,18 +65,87 @@
   
   .n-button {
     flex: 2;
+    margin-right: 8rem;
   }
   
   @media screen and (max-width: 480px) {
-    .n-list {
-      display: none;
-    }
-
-    .n-button{
-      display: none;
-    }
-   
+  
     .n-name{
       margin-top:.7rem;
     }
+
+    .n-wrapper {
+      z-index:1000;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      padding-top: .3cm;
+      
+    }
+
+    .n-right{
+      display: none;
+    }
+    .n-right-1{
+  
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      font-weight: 400;
+      color: beige;
+      background-color: rgba(21, 7, 114, 0.5);
+      backdrop-filter: blur(30px); /* adds the blur effect to the background */
+      opacity: 1;
+      border-radius: 10px; /* optional, adds rounded corners to the div */
+      width: 94%;
+      padding-bottom: 1rem;
+    }
+ 
+    .n-list-1 > ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: .6rem;
+      height: fit-content;
+    }
+
+    ul{
+      padding: 0;
+    }
+    
+    .ul-class{
+      align-items: center;
+      justify-content: center;
+      display: flex; 
+      flex-direction: column;
+      margin-top: 12rem;
+      padding: auto;
+    }
+    .n-button{
+      margin-left: 10rem;
+    }
   }
+  
+  @media screen and (max-width: 480px){
+    .toggleNavbar{
+          position: absolute;
+          flex-direction: row;
+          margin-left: 15rem; 
+          margin-top: .5rem;   
+      } 
+    .icon{
+      color: var(--orange);
+      font-size: 30px;
+    }
+
+    .closeNavbar{
+        position: absolute;
+        margin-bottom: 9rem;
+        margin-left: 14rem;
+    }
+}
+ 
