@@ -27,8 +27,8 @@ const Home =()=>{
                 <span>Hy! I Am</span>
                 <span>Nirbhay</span>
                 <span className="name-subtext">
-                    Frontend Developer with high level of experience in web designing
-                    and development, producting the Quality work
+                Full Stack Developer with good experience in web designing
+                    and development ! Currently learning Data Science and mastering Web Dev !
                 </span>
                 </div>
                 <button className="button i-button">Hire me</button>

@@ -9,7 +9,6 @@ const Card = (props) => {
         <div className="card-content">
           <h2>{props.title}</h2>
           <p>{props.description}</p>
-          <a href={props.link} target="_blank" rel="noopener noreferrer">Learn more</a>
         </div>
       </div>
     );
@@ -45,9 +44,9 @@ const Services = () => {
         <span >My Awesome</span>
         <span>Competencies</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+         I strongly believe that we should be comfortable playing with any technology !
           <br />
-          ispum is simpley dummy text of printing
+         I am tinckering around with many tech stacks, and trying to master Web Dev ! 
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
