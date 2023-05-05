@@ -1,0 +1,70 @@
+.experience-container {
+    position: relative;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .vertical-line{
+    position: absolute;
+    top: 6rem;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background-color: #fdfffd;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+ 
+  .professional {
+    width:calc(48% - 5px);
+    margin-left: auto; 
+    margin-right: 0;
+    margin-top: 1.5rem;
+  }
+
+  .volunteer {
+    width:calc(48% - 5px); 
+    margin-left: 0; 
+    margin-right: auto;
+    margin-top: 1.5rem;
+    text-align: right;
+  }
+
+  .seperate-section {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+
+ 
+  .point{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+
+  .p-1 {
+    top: 0%;
+    bottom: 100%;
+  }
+
+  .p-2 {
+    top: 20%;
+    bottom: 80%;
+  }
+
+  .p-3 {
+    top: 40%;
+    bottom: 60%;
+  }
+
+  .btn-exp {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    z-index: 100;
+    bottom: 2rem;
+  }
