@@ -8,13 +8,13 @@ const Navbar = () => {
 
   const [active, setActive] = useState("n-right");
   const [active1, setActive1] = useState("n-list");
-  const [active3, setActive3] = useState("");
+  
   
   const showNav = ()=>{
    
-    setActive("n-right-1");
+    setActive("ht-n-rig1");
     setActive1("n-list-1");
-    setActive3("ul-class");
+  
   }
 
   const removeNav = ()=>{
