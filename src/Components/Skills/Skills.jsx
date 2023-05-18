@@ -19,19 +19,19 @@ const Services = () => {
         {
           title: "Programming",
           description: "This is the first card.",
-          image: "https://via.placeholder.com/150",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSteWLUF5Ai-EFZYbSGXpsLxsAiY5mqHKHcUQ&usqp=CAU",
           link: "https://example.com"
         },
         {
           title: "Web Development",
           description: "This is the second card.",
-          image: "https://via.placeholder.com/150",
+          image: "https://aislabs.com/wp-content/uploads/2014/08/ais-web-development.png",
           link: "https://example.com"
         },
         {
           title: "Data Science",
           description: "This is the third card.",
-          image: "https://via.placeholder.com/150",
+          image: "https://cdn-icons-png.flaticon.com/512/8649/8649635.png",
           link: "https://example.com"
         }
       ];

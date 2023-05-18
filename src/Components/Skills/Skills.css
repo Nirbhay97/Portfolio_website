@@ -77,7 +77,7 @@
 .card img {
   border-radius: 10px;
   margin-bottom: .5rem;
-  max-width: 100%;
+  max-width: 75%;
 }
 
 .card h2 {
@@ -189,7 +189,7 @@
   .card img {
     border-radius: 10px;
     margin-bottom: .2rem;
-    max-width: 100%;
+    max-width: 75%;
   }
   
   .card h2 {
